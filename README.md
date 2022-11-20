@@ -23,13 +23,21 @@
 
 - Is there a measurable correlation between the weather in NYC and the performance of the market?
 
+![Weather Correlation Graph](./images/weather_corr_1.png)
+
 - Which of the factors in our initial data set is most correlated with the S&P 500?
 
+![All Correlation Graph](./images/all_corr.png)
 - Could look at non traditional factors like weather?
 
 - Does a relationship exist between the overall market performance and the sentiment of people's Google searches?
 
+![Google Sentiment Correlation Graph 1](./images/sp500_sentiment_1.png)
+![Google Sentiment Correlation Graph 2](./images/sp500_sentiment_2.png)
 - Would a portfolio made up of SP500 index fund, BTC and Oil perform well over time?
+
+![Portfolio Simulation](./images/simulation_1.png)
+
 
 ## Instructions
 
