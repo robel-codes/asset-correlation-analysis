@@ -19,25 +19,63 @@
 
 ## Questions
 
-- What tools can be used to diversify your portifolio?
+### What programming tools can potentially be used to validate that a portfolio is diversified?
+- pandas
+- alpaca_trade_api
+- hvplot
+- MCForecastTools
+- seaborn
 
-- Is there a measurable correlation between the weather in NYC and the performance of the market?
+### Is there a measurable correlation between the weather in NYC and the performance of the market?
+- Our analysis and graphs indicate there is no correlation during the timeframe investigated.
+- ![Weather Correlation Graph](./images/weather_corr_1.png)
 
-![Weather Correlation Graph](./images/weather_corr_1.png)
+### Which of the factors in our initial data set is most correlated with the S&P 500?
+- The price of BTC has the highest correlation with the S&P 500.
+- ![All Correlation Graph](./images/all_corr.png)
 
-- Which of the factors in our initial data set is most correlated with the S&P 500?
+### Does a relationship exist between the overall market performance and the sentiment of people's Google searches?
+- It depends on the search query.
+-[Google Sentiment Correlation Graph 1](./images/sp500_sentiment_1.png)
+-[Google Sentiment Correlation Graph 2](./images/sp500_sentiment_2.png)
 
-![All Correlation Graph](./images/all_corr.png)
-- Could look at non traditional factors like weather?
-
-- Does a relationship exist between the overall market performance and the sentiment of people's Google searches?
-
-![Google Sentiment Correlation Graph 1](./images/sp500_sentiment_1.png)
-![Google Sentiment Correlation Graph 2](./images/sp500_sentiment_2.png)
-- Would a portfolio made up of SP500 index fund, BTC and Oil perform well over time?
-
+### Would a portfolio made up of SP500 index fund, BTC and Oil perform well over time?
+- Our analysis indicate that this would not be an advisable investment strategy.
 ![Portfolio Simulation](./images/simulation_1.png)
 
+## Code and Dependencies
+This code is to be run on 
+`Python 3.7.13`
+
+The following Python Libraries were also imported and used
+
+`import pandas as pd`
+
+`import os`
+
+`import requests`
+
+`from dotenv import load_dotenv`
+
+`import alpaca_trade_api as tradeapi`
+
+`from MCForecastTools import MCSimulation`
+
+`import alpaca_trade_api as tradeapi`
+
+`import numpy as np`
+
+`import datetime as dt`
+
+`import seaborn as sns`
+
+`from pathlib import Path`
+
+`import pandas_datareader as web`
+
+`from pytrends.request import TrendReq`
+
+`import matplotlib.pyplot as plt`
 
 ## Instructions
 
